@@ -1,0 +1,20 @@
+{
+    "name": "kevin/psalm-test",
+    "require": {
+        "symfony/string": "5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kevin\\PsalmTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kevin Vandenborne",
+            "email": "kevin.vandenborne@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "vimeo/psalm": "^5.0"
+    }
+}
